@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.container {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #f8da42, #e2a139);
+}
+.content {
+  max-width: 1140px;
+  margin: auto;
+}
+.maindiv {
+  background-color: white;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 0 50px;
+}
+.content img {
+  max-width: 20%;
+  margin-bottom: 10px;
+}
+.content h1 {
+  color: #a35200;
+}
+.content p {
+  font-weight: 500;
+}
+.counts {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.counts span {
+  color: #a35200;
+}
+.content button {
+  cursor: pointer;
+  background-color: #f8da42;
+  padding: 5ix 7px;
+  border: 1px solid #a35200;
+  border-radius: 3px;
+}
